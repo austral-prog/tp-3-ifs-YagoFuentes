@@ -19,3 +19,12 @@ def grades():
         Insuficiente
     """
     pass
+    valorNota = int(input())
+    if valorNota in range(9,11):
+        print("Excelente")
+    elif valorNota in range(7,9):
+        print("Bueno")
+    elif valorNota in range(5,7):
+        print("Regular")
+    elif valorNota in range(0,5):
+        print("Insuficiente")

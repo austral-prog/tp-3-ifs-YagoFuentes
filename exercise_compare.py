@@ -16,3 +16,11 @@ def compare():
         7 es igual a 7
     """
     pass
+    primerNumero = int(input())
+    segundoNumero = int(input())
+    if primerNumero > segundoNumero:
+        print(f"{primerNumero} es mayor que {segundoNumero}")
+    elif primerNumero == segundoNumero:
+        print(f"{primerNumero} es igual a {segundoNumero}")
+    else:
+        print(f"{primerNumero} es menor que {segundoNumero}")
